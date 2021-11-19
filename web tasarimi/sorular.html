@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title> YAPAY ZEKA </title>
+<meta name="keywords" content="html, bilgi, öğrenme">
+<meta name="description" content="Youtube'da VideoKod">
+<meta name="author" content="Bilge Bozkurt">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo"><a href="index.html"><img src="a.jpg"></a></div>
+        <div class="search">
+            <input placeholder="Arama Yap...">
+        </div>
+    </div>
+</header>
+<div class="bolum"></div>
+<div class="menu">
+    <div class="container">
+        <ul class="menu-ul">
+            <a href="index.html"><li class="menu-li">Ana Sayfa</li></a>
+            <a href="Haberler.html"><li class="menu-li">Haberler</li></a>
+            <a href="Makaleler.html"><li class="menu-li">Makaleler</li></a>
+            <a href="Sorular.html"><li class="menu-li">Sorular</li></a>
+            <a href="Fotograflar.html"><li class="menu-li">Fotograflar</li></a>
+            <a href="Videolar.html"><li class="menu-li">Videolar</li></a>
+        </ul>
+    </div>
+</div>
+<div class="resim">
+    <div class="text">
+        <marquee direction= right behavior="alternate" width="800"><h1>YAPAY<span>ZEKA</span></h1></marquee>
+        <h4>Yapay zeka; insan gibi davranışlar sergileme, sayısal mantık yürütme, hareket, konuşma ve ses algılama gibi birçok yeteneğe sahip yazılımsal ve donanımsal sistemler bütünüdür.<br> Başka bir deyişle yapay zeka; bilgisayarların insanlar gibi düşünmesini sağlar.</h4>
+    </div>
+</div>
+<div class="container">
+    <div class="sol">
+        <div class="Sorular">
+            <h2>SORULAR</h2>
+            <a name="Soru1">
+            <h3>1. Yapay zeka alanı ile ilgili problemler neler?</h3>
+            Aslında birçok farklı problem olsa da temelde üzerinde durmamız gereken problemleri aşağıdaki gibi sıralamaya çalıştım.<br><br>
+            Problem 1: Bilimsel alt yapıdan, matematikten ve istatistikten uzaklaşarak, script scientist (betik bilimci) kıvamında çalışmaların yapılması. Evet bu durumun motive edici olduğunu düşünenlerdenim ancak sürdürülebilir değil. Dolayısı ile ortaya çıkan projeler, ufak değişiklikler hariç birbirinin kopyası olabiliyor. Bu durumu normal karşılayabilir ve yeterki bir şeyler üretelim diyebiliriz.<br>
+            Çünkü sonuca hızlı ulaşmak, insanı motive eder ve bir sonraki adım için ona enerji verir.<br>
+            Kişisel olarak buna da varım. Ancak kendimize mutlaka her projede bir tane hedef belirlemeliyiz. Örneğin; bu projede mutlaka olasılık, koşullu olasılık, Bayes teoremi ve Naive Bayes sınıflandırma algoritmasının nasıl çalışacağını öğreneceğim. Ya da önümdeki 2 projede çok fazla öznitelik seçimi olacak bir problem belirleyeceğim ve bu problemde Temel Bileşen Analizi (PCA, Principle Component Analysis) mantığını, öz değer vektörlerini ve bunların sonucunda gerçekleştirilen boyut indirgeme yaklaşımını öğreneceğim. Ya da bu sefer bu projede kafaya koydum, Bilgi Kazancı hesaplamasının arkasındaki entropi mantığını yalayıp yutacağım…<br>
+            Bu arada verinin yapısı, dağılımı ve algoritmaya uygunluğu ile ilgili de mutlaka teorik ve pratik altyapı birlikte irdelenmelidir. Veri dağılımınıza uygun olmayan algoritmaları denemek, istatistiğin bazı temellerini bilmiyorsanız muhtemelen yapacağınız en kolay hata olacaktır.<br><br>
+            Problem 2: Gerçek hayat senaryoları ile eğitim alınan konuların istenilen düzeyde ötüştürülememesi ve yapılan çalışmalar ya da yapılamayan çalışmalar nedeniyle yapay zekanın bir balon olması problemi ile karşılaşılması.<br>
+            Peki ne yapmamız lazım?<br>
+            Düşünce biçimimizi ve olaylara bakış açımızı değiştirmemiz gerekiyor.<br>
+            Olayları senaryo süreçleri ve alt süreçler halinde ele almalıyız.<br>
+            Örneğin aşağıda benim de yazarı olduğum Uygulamalarla Veri Bilimi kitabının “İnsan Kaynakları” bölümünden alınmış bir senaryo mevcut. Bu senaryoyu 7 alt senaryoya ve onları da daha küçük parçalara bölebiliriz. Daha sonra her parça üzerinde detaylı çalışabiliriz.<br>
+            Senaryo<br>
+            Not: Dikkat ederseniz buradaki bakış açısı, çevik proje yönetimi sürecindeki, büyük bir projenin modüllerinden görevlere parçalanma şeklinin ele alınışı ile benzer kurguda… (Ya da klasik divide and conquer yaklaşımı da diyebiliriz)<br>
+            Theme → Epic → Story →Task<br>
+            Senaryoda ele aldığımız bir alt sürecin herhangi bir fonksiyonunun yanına + YZ koyabiliyorsanız orada mutlaka bir fayda / verimlilik yaratacağınızı iddia ediyorsunuz demektir. Bu durum göstermelik olmamalı ve sonuçlar raporlanabilmelidir. Zaten göstermelik olursa hızlı şekilde ortaya çıkar, siz de bulduğunuz ACC/FMeasure/ErrorRate ölçüt değeriyle ortada kalırsınız.<br>
+            Örneğin [A1] alt senaryosunu ele alalım. Orta ve büyük ölçekli firmaların neredeyse tamamı iş başvuru süreçlerini İK siteleri üzerinden yürütmektedirler. Adaylar tüm özgeçmiş bilgilerini (eğitim, önceki iş deneyimleri, proje, teknik yetenek, yabancı dil vb.) portal üzerinden girip, kendilerine uygun olduğunu düşündükleri firma pozisyonlarına başvururlar. Her pozisyona binlerce başvurunun yapıldığını düşündüğümüzde, her başvurunun İK işe alım uzmanı tarafından tek tek açılıp detaylı olarak incelenmesi mümkün değildir.<br>
+            (Aday özgeçmişi ← → Pozisyon).Eşleştir + YZ<br>
+            Tam da bu noktada bir yapay zeka uygulamasının/fonksiyonunun kullanımının yaratacağı fayda apaçık ortadadır. Doğruya yakın eşleşmeyi yaparak, uygun aday listesini daraltmak ya da “gerçekten?” alakasız aday listesini elemek insan kaynakları çalışanlarına ciddi zaman kazandıracaktır. Ayrıca, firmanın benzer pozisyonlar için geçmişte aldığı personeller ve bu personellerin şu andaki durumları (ayrıldı, devam ediyor, verimli, verimsiz vb.) bilinirse ve bir yapay zeka sistemine öğretilirse, daha gerçekçi sonuçlar elde edilebilir.<br>
+            Diğer bir örneği de Facebook uygulaması üzerinden verelim. Facebook arkadaşlarımızın yüzlerini otomatik etiketliyor değil mi? İlk çıktığında “wowwww” etkisi yaratan bu görüntü işleme (bilgisayarlı görü) ve yüz tanıma işini neden yaptı? Tabiki bir fayda yaratmak için… Kullanıcı açısından baktığımızdaki amaç/fayda; kullanıcı memnuniyetini arttırmaktı. Firma açısından baktığımızda ise Facebook kendisi için veri toplama ve analiz platformuna bir fonksiyon eklemiş oldu.<br>
+            <a name="Soru2">
+            <h3>2. Yapay zeka öğrenmek zor mu?</h3><br>
+            Bu soruyu tek başına ve bu haliyle cevaplamak çok zor. Çünkü yapay zeka öğrenmek diye bir durum/kavram tek başına mümkün değil. Öncelikle yapay zekanın tanımına bakalım.<br> Nedir bu yapay zeka?<br>
+            Yapay zeka; insan zekasına özgü olan, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme, sorun çözme, iletişim kurma, çıkarım yapma ve karar verme gibi yüksek bilişsel fonksiyonları veya otonom davranışları sergilemesi beklenen zeki etmenler/programlar yaratmak üzere yapılan tüm çalışmalarının toplandığı geniş bir alandır.<br>
+            Yani YZ dediğimiz kavram birçok alt alandan oluşuyor…<br>
+            Bilgisayarlı görü tanıma (görüntü işleme, tanıma)<br>
+            Konuşma ve anlama (metinden-konuşmaya konuşmadan-metne dönüşüm)<br>
+            Doğal dil işleme (sesbilimi, biçim bilimi, sözdizimi vs.)<br>
+            Makine öğrenmesi<br>
+            Robotik<br>
+            Öncelikle bu alanlarla ilgili temel fikir edinilmesi gerekiyor. Daha sonra en çok merak duyduğunuz veya hali hazırda çalıştığınız ilgili alan üzerinde daha detaylı ve planlı çalışmaya başlayabilirsiniz. Başlangıç için nelere ihtiyaç var diye bakarsak:<br>
+            Programlama bilgisi<br>
+            Matematik ve istatistik bilgisi (en azından temelleri)<br>
+            İş alan bilgisi (Örn: Finans, hizmet, tıp, enerji vb.)<br>
+            Şu andaki yanlış yaklaşımlardan birisi, sadece programlama bilgisini belirli bir düzeye getirip (if-else biraz for değişken ne?) işe koyulmak oluyor.<br>
+            Tabiki sürece sadece iş ve alan bilgisi ile başlamak da mümkün değil onu da anlıyorum. Ancak yaptığımız işin arka planındaki matematik ve istatistik de olmazsa olmazımız.<br> Kademeli de olsa bu taraftaki eksiklerimizi gidermemiz gerekiyor.<br>
+            <a name="Soru3">
+            <h3>3. Yapay zeka alanında hangi programlama dilini tercih edersiniz?</h3><br>
+            Yapay zeka alanlarında R, Python, Scala, Java gibi birçok programlama dili kullanılmaktadır. Bu dillerden Python’da biraz daha görece iyi olduğumu söyleyebilirim. R dilini ise 2 projede kullandım (metin madenciliği projeleriydi). Yorumlarım ve tecrübelerim şöyle:<br>
+            Bir dili öğrenirken, ilk olarak dilin yorumlanabilir mi yoksa derlenebilir mi olduğunu bilmemiz gerekiyor.<br>
+            Çünkü buna göre sağladığı esneklikler de ister istemez değişiyor. Daha sonra dilin hangi programlama paradigmalarını desteklediğini bilmek de proje geliştiren kişi için kritik bir konu (yapısal, fonksiyonel, nesneye yönelik). Bu yüzen Python’u biraz daha seviyorum. Değişkenler, ifadeler, döngüler, koşullar, operatörler, fonksiyonlar işin temelini oluşturuyor.<br>
+            Daha sonra işimiz paketlerde dönmeye başlıyor.<br>
+            Özellikle ortalama, standart sapma, varyans, kovaryans, korelasyon, regresyon ve veri dağılımı gibi bilgileri en doğru /basit şekilde görebileceğimiz kütüphanelere odaklanmamız gerekiyor. Eksik değerleri bulup doldurabilmeli, uç değerleri hızlıca tespit edebilmeli ve veriyi kesikli hale getirmemiz gerekiyorsa bunu da yapacak fonksiyonları basitçe kullanabilmeliyiz.<br>
+            Ayrıca bu kütüphaneleri kullanarak mutlaka SQL (Structured Query Language) yazar gibi kod da yazabilmeliyiz; projection, aggregation, condition, group by, cross tab yapabilmemiz çok çok önemli. Örneğin pandas data frame buna güzel bir örnek.<br>
+            Ek olarak; generic fonksiyonların desteklenmesi de oldukça kritik; örneğin lambda fonksiyonları her dil için çok önemli ayrıca apply fonksiyonu gibi bu generic altyapıyı destekleyen fonksiyonlar da oldukça kritik. Konu biraz daha uzun ama elimden geldiğince buraya sıkıştırmaya çalıştım.<br>
+            <a name="Soru4">
+            <h3>4. Veri bilimi yapmak ile yazılım geliştirmek aynı mı?</h3><br>
+            Bu konuyu farklı bir boyutta (yazılım yaşam döngüsü işleyişi ve pratikleri açısından), ayrı bir yazıda da ele alacağım ancak bu yazının kapsamında da paylaşım yapmanın faydalı olacağını düşünüyorum. Öncelikle veri bilimi yapmak söylemi biraz kaba mı oldu bilemedim, pardon, isterseniz deney yapmak diyelim. Hadi bir experiment yapalım :)
+            Veri bilimi yapmak ve yazılım geliştirmek aynı değil…<br>
+            Ortak yönleri çok olsa da her ikisinin de kendine ait farklı iş akışları ve uzmanlıkları bulunuyor. En temel kesiştikleri noktanın “program yazmak” olduğunu rahatlıkla söyleyebilirim. Unutmayalım ki program yazmadan yazmaya da fark var. Programlama dili izin vermiyorsa, en azından yapısal programlama paradigmalarındaki kavramları iyi bilmek gerekiyor.<br>
+            Python gibi bir dil kullanabiliyorsanız zaten şanslısınız çünkü Nesne Yönelimli Programlama (OOP-Object Oriented Programming) paradigmasının sağladığı birçok avantajı (tekrar kullanılabilirlik, kalıtım, çok biçimlilik, kapsülleme) kullanma şansınız var. Ayrıca SOLID (Single Responsibility, Open-Close, Liskov Substitution, Interface Segregation, Dependency Inversion) tasarım prensiplerini de uygularsanız hem sizi daha çok severler hem de daha havalı görünürsünüz.<br>
+            En temel fark…<br>
+            Klasik yazılım geliştirme süreçlerinde bir işi yaparken hazır bir çatı üzerinde (Örneğin: .Net Core) işin altyapısını çok da bilmeden (işletim sistemi tasarımı, çok görevli çalışma, veri yapıları, TCP-IP üzerinden haberleşme, derleme-çalışma zamanı, programlama dili yapısı vb.) piyasada “maalesef” iş yapabiliyorsunuz. Ancak veri bilimi ve yapay zeka projelerinde bir kaçış yok, sektörde bir “veri bilimci” olarak çalışıyorsanız, mutlaka kullandığınız altyapının/algoritmanın teorik detayını bilmeniz gerekiyor.<br>
+            <a name="Soru5">
+            <h3>5. Yapay zeka/veri bilimi projelerinde İş/Alan bilgisi ne kadar bilmeliyim?</h3><br>
+            Hem yazılım hem de veri bilimi projelerinde “Ne kadar?” sorularının sanırım en kolay ama bir yandan da o kadar doğru cevabı “Duruma bağlı (It depends)” oluyor. Tabi ilgili durumun standart ölçütleri varsa o zaman işimiz biraz daha kolay.<br>
+            Deneyimlerime göre hiç kimse diğerinin ana alanı kadar uzman olamıyor çünkü arkada senelere dayanan bir emek ve bilgi birikimi var. Ayrıca iş yaşamında ve günlük koşuşturmada buna zaman ayırmak da çok mümkün değil. Veri bilimi projelerinde problemin tanımlandığı, amaçların ve hedeflerin tartışıldığı/belirlendiği toplantılarda mutlaka alandaki uzman kişinin(domain expert, subject matter expert, iş analisti vb.) sürecin içerisinde yer alması ve belirlenen amacın ve hedeflerin altına imza atması gerekiyor. Bu noktada siz de veri bilimci olarak alan/iş bilgisini edinmeye başlıyorsunuz, tabi bu arada kafanız hep veride oluyor :) <br>
+            Probleminizi çözecek kadar “iş/alan bilgisi” edindiğiniz yani tatmin olduğunuz anın derecesini problemden probleme değişmekle birlikte hem sizin ekibinize/donanımınıza hem de karşı ekibin yapısına, bakış açısına ve size sunduğu verinin kalitesine bağlı.<br></h4>
+        </div>
+    </div>
+    <div class="sağ">
+        <div class="rightp">
+            <a href=""><div class="button">Örnek Buton</div></a>
+            Bunun devamı şurada: <a href="https://youtu.be/3T4NHFzKyEg">youtube</a>
+        </div>
+        <div class="duyurular">
+                <h2>SORULAR</h2>
+                <div class="duyuru-icerik">
+                    <a href="#Soru1"><marquee scrollamount="1">Yapay zeka alanı ile ilgili problemler neler?</marquee></a><br><hr>
+                    <a href="#Soru2"><marquee scrollamount="1">Yapay zeka öğrenmek zor mu?</marquee></a><br><hr>
+                    <a href="#Soru3"><marquee scrollamount="1">Yapay zeka alanında hangi programlama dilini tercih edersiniz?</marquee></a><br><hr>
+                    <a href="#Soru4"><marquee scrollamount="1">Veri bilimi yapmak ile yazılım geliştirmek aynı mı?</marquee></a><br><hr>
+                    <a href="#Soru5"><marquee scrollamount="1">Yapay zeka/veri bilimi projelerinde İş/Alan bilgisi ne kadar bilmeliyim? </marquee></a><br><hr>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="clear"></div>
+<script language="javascript" src="http://ir.sitekodlari.com/yukaricik1.js"></script>
+<footer>
+    <div class="container">
+        <div class="column-25">
+            <span class="line">
+                <h2 class="title">VideoKod Hakkında</h2>
+            </span>
+            <span class="info">Ek bilgiler</span>
+        </div>
+
+        <div class="column-25">
+            <span class="line">
+                <h2 class="title">Başlık 1</h2>
+            </span>
+            <span class="info">Yayın hakkı</span>
+        </div>
+
+        <div class="column-25">
+            <span class="line">
+                <h2 class="title">Başlık 2</h2>
+            </span>
+            <span class="info">Sayfa numarası</span>
+        </div>
+        <div class="column-25">
+            <span class="line">
+                <h2 class="title">Başlık 3</h2>
+            </span>
+            <span class="info">Önemli notlar</span>
+        </div>
+    </div>
+    <div class="clear"></div>
+</footer>
+</body>
+</html>
